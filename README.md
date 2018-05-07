@@ -28,6 +28,6 @@ Mentor: Dr Santosh Vishwas (indian institute of technology CSE dept)<br>
 this project django version less than 2;<br>
 if you are usinh django version greater than 2 then replace
 this line <br>
- user = models.ForeignKey(User)
+ user = models.ForeignKey(User)<br>
  by below line in each models<br>
   user = models.ForeignKey(User,on_delete=models.CASCADE)
