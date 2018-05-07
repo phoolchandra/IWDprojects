@@ -23,4 +23,11 @@ python manage.py runserver
 ● http://127.0.0.1:8000/home/portal/home/
 9. As you login it direct you those pages where you can fill your
 information. As press submit button you will get your ownpage.
-Mentor: Dr Santosh Vishwas (indian institute of technology CSE dept)
+Mentor: Dr Santosh Vishwas (indian institute of technology CSE dept)<br>
+
+this project django version less than 2;<br>
+if you are usinh django version greater than 2 then replace
+this line <br>
+ user = models.ForeignKey(User)
+ by below line in each models<br>
+  user = models.ForeignKey(User,on_delete=models.CASCADE)
